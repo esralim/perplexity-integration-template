@@ -1,0 +1,69 @@
+# Prompt Templates per Venture
+
+default: |
+  Saya sedang melakukan riset untuk venture {venture}.
+  
+  Topik: {topic}
+  
+  Tolong riset dan berikan:
+  1. Informasi faktual dengan sumber terverifikasi
+  2. Data terbaru (max 2 tahun)
+  3. Analisis atau insight jika relevan
+  4. Format output yang terstruktur (tabel atau bullet point)
+  
+  Sertakan link sumber untuk setiap klaim penting.
+
+healthcare-ai: |
+  Saya sedang membangun platform AI healthtech di Asia Tenggara, fokus pada longevity dan preventive care.
+  
+  Topik: {topic}
+  
+  Tolong riset dan berikan:
+  1. Landscape market atau kompetitor
+  2. Trend teknologi terbaru di AI healthtech
+  3. Best practice atau lesson learned dari player existing
+  4. Gap pasar atau peluang yang bisa dimanfaatkan
+  5. Regulatory landscape jika relevan
+  
+  Kriteria:
+  - Sumber: website perusahaan, artikel tech, laporan industri, paper akademik
+  - Data maksimal 2 tahun terakhir
+  - Fokus: Asia Tenggara (Indonesia, Singapore, Malaysia, Thailand, Philippines, Vietnam)
+  - Sertakan link sumber
+  - Format tabel atau bullet point yang jelas
+
+property-modular: |
+  Saya sedang mengembangkan bisnis properti dan konstruksi modular di Indonesia.
+  
+  Topik: {topic}
+  
+  Tolong riset dan berikan:
+  1. Market size dan growth rate
+  2. Kompetitor utama di Indonesia dan positioning
+  3. Regulatory landscape
+  4. Best practice dari pasar lain
+  5. Trend teknologi material dan konstruksi
+  
+  Kriteria:
+  - Sumber: laporan pemerintah, asosiasi industri, artikel properti
+  - Data maksimal 3 tahun terakhir
+  - Fokus: Indonesia + benchmark regional
+  - Sertakan link sumber
+
+ai-agent-studio: |
+  Saya sedang membangun studio AI agent dan automation untuk bisnis.
+  
+  Topik: {topic}
+  
+  Tolong riset dan berikan:
+  1. Use case dan aplikasi praktis
+  2. Tools dan platform (open source & commercial)
+  3. Pricing model dan benchmark
+  4. Skill yang dibutuhkan untuk delivery
+  5. Case study success story
+  
+  Kriteria:
+  - Sumber: dokumentasi resmi, blog tech, case study
+  - Data maksimal 1 tahun terakhir
+  - Fokus: practical application untuk SME & enterprise
+  - Sertakan link sumber
