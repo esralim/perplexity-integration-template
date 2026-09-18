@@ -1,0 +1,70 @@
+# Global Configuration
+
+# Obsidian Settings
+obsidian:
+  vault_path: "/path/to/EAT-Knowledge-Vault"
+  research_folder: "04-Research-Notes"
+  inbox_folder: "00-Inbox"
+  ventures_folder: "02-Venture-Theses"
+
+# Notion Settings
+notion:
+  research_database_id: "your_research_database_id"
+  ventures_database_id: "your_ventures_database_id"
+  projects_database_id: "your_projects_database_id"
+  decisions_database_id: "your_decisions_database_id"
+
+# Google Drive Settings
+google_drive:
+  default_folder_id: "your_default_folder_id"
+  ventures_root: "01-Ventures"
+  projects_root: "02-Projects"
+  shared_assets_root: "03-Shared-Assets"
+
+# Notification Settings
+notifications:
+  email_enabled: true
+  slack_enabled: true
+  whatsapp_enabled: false
+  on_success: true
+  on_error: true
+
+# Rate Limiting & Retry
+rate_limiting:
+  max_requests_per_minute: 10
+  retry_attempts: 3
+  retry_delay_seconds: 5
+  exponential_backoff: true
+
+# Logging Settings
+logging:
+  level: "INFO"
+  file: "logs/research.log"
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  max_file_size_mb: 10
+  backup_count: 5
+
+# API Settings
+perplexity:
+  model: "sonar"
+  temperature: 0.2
+  max_tokens: 2000
+  top_p: 0.9
+  frequency_penalty: 0.5
+  presence_penalty: 0.5
+
+# Processing Settings
+processing:
+  auto_extract_insights: false
+  auto_generate_summary: true
+  min_sources_required: 2
+  max_age_days: 730
+
+# Storage Settings
+storage:
+  save_to_obsidian: true
+  save_to_notion: true
+  save_to_drive: true
+  include_frontmatter: true
+  include_sources: true
+  include_metadata: true
