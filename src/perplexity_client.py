@@ -38,7 +38,11 @@ class PerplexityClient:
         return response.json()
     
     def query(self, prompt: str, system_prompt: str = "You are a research assistant.", temperature: Optional[float] = None, max_tokens: Optional[int] = None) -> Dict:
-        headers = {"Authorization": f"Bearer {self.api_key}", "Content-Type": "application/json"}
+        headers = {
+            "Authorization": f"Bearer {self.api_key}",
+            "Content-Type": "application/json",
+            "X-Pplx-Integration": "perplexity-integration-template",
+        }
         
         payload = {
             "model": self.model,
